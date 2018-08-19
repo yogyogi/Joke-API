@@ -7,13 +7,16 @@ or jQuery. Just add a div element to your web page where you want the Joke to ap
 
 The API URL is - https://api.icndb.com/jokes/random
 
+# This is how the joke will appear in your web page
+![joke api](image.png "Joke API")
+
 Add a div to your page:
 
 ```
 <div class="joke"></div>
 ```
 
-JavaScript Code:
+# JavaScript Code:
 Now add the JavaScript code for making AJAX request:
 
 ```
@@ -43,7 +46,7 @@ request.onerror = () => {
 </script>
 ```
 
-jQuery Code:
+# jQuery Code:
 The [jQuery AJAX](http://www.yogihosting.com/jquery-ajax/) code form making the AJAX request is:
 
 ```
