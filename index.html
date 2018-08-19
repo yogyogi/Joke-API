@@ -1,0 +1,25 @@
+<html>
+<head>
+<title>Showing Random Joke</title>
+</head>
+<body>
+<div id="joke"></div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+$(document).ready(function() {
+    $.ajax({
+        type: "GET",
+        url: "https://api.icndb.com/jokes/random",
+		dataType: "json",
+        success: function (msg) {
+            $("#joke").html(msg.value.joke);
+        },
+        error: function (req, status, error) {
+            alert(req + " " + status + " " + error);
+        }
+    });
+});
+</script>
+</body>
+</html>
