@@ -47,7 +47,7 @@ request.onerror = () => {
 ```
 
 # jQuery Code:
-The [jQuery AJAX](http://www.yogihosting.com/jquery-ajax/) code form making the AJAX request is:
+The [jQuery AJAX](https://www.yogihosting.com/jquery-ajax/) code form making the AJAX request is:
 
 ```
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
