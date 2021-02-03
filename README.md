@@ -38,7 +38,6 @@ request.onload = () => {
   } 
 };
  
- 
 request.onerror = () => {
   console.log("error")
 }; 
@@ -67,5 +66,12 @@ $(document).ready(function() {
 });
 </script>
 ```
+
+## Support
+
+If you find it useful then support this Project. Thank you.
+
+<a href="https://www.buymeacoffee.com/YogYogi" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" width="200"></a>
+
 
 Have Fun!
